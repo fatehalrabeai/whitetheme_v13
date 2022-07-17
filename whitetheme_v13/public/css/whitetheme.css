@@ -67,5 +67,52 @@
     --scroll-bg: #eef1f5;
     --scroll-color: #d9dfe6;
     --text-on-yellow: #694b0f;
-    --bg-yellow:#0b529e;
+    --bg-yellow:#3894f6;
+}
+
+/* Background color */
+.page-container {
+    background-color: var(--bg-color);
+}
+
+.standard-sidebar .standard-sidebar-item.selected, 
+.search-dialog .search-results .search-sidebar 
+.standard-sidebar-item.selected, .desk-sidebar 
+.standard-sidebar-item.selected {
+    background-color: var(--sidebar-select-color);
+}
+
+.standard-sidebar .standard-sidebar-item:hover, 
+.search-dialog .search-results .search-sidebar 
+.standard-sidebar-item:hover, .desk-sidebar 
+.standard-sidebar-item:hover {
+    background-color: var(--sidebar-select-color);
+    text-decoration: none;
+}
+
+.indicator-pill.gray, .indicator-pill-right.gray, .indicator-pill-round.gray, .indicator-pill.grey, .indicator-pill-right.grey, .indicator-pill-round.grey {
+    background: #bdc2c6;
+    color: var(--text-on-light-gray);
+}
+
+.btn.btn-primary, div#driver-popover-item .driver-popover-footer button.btn-primary, div#driver-popover-item .driver-popover-footer button.driver-next-btn {
+    background-color: var(--primary);
+    color: var(--white);
+    white-space: nowrap;
+    --icon-stroke: currentColor;
+    --icon-fill-bg: var(--primary);
+}
+
+.btn-primary:hover, div#driver-popover-item
+ .driver-popover-footer button.driver-next-btn:hover {
+    color: #fff;
+    background-color: #107ddd;
+    border-color: #0f76d1;
+}
+
+.navbar {
+    height: 60px;
+    background: rgb(43, 63, 108);
+    box-shadow: var(--shadow-sm);
+    padding: 0;
 }
