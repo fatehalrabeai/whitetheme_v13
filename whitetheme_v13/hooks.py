@@ -4,11 +4,11 @@ from . import __version__ as app_version
 
 app_name = "whitetheme_v13"
 app_title = "Whitetheme V13"
-app_publisher = "Hashir"
+app_publisher = "Fateh"
 app_description = "White Theme for v13"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "hashirabdulla@gmail.com"
+app_email = "fatehalrabeai@gmail.com"
 app_license = "MIT"
 
 # Includes in <head>
